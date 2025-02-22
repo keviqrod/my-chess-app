@@ -12,7 +12,7 @@ function App() {
   // Mode: "human" for human vs. human; "ai" for human vs. computer.
   const [mode, setMode] = useState('ai');
   // AI difficulty: easy (5), medium (10), hard (16).
-  const [difficulty, setDifficulty] = useState(10);
+  const [difficulty, setDifficulty] = useState(5);
   // Flag indicating if it's the computer's turn.
   const [isComputerTurn, setIsComputerTurn] = useState(false);
 
